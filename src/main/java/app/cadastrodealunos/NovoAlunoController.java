@@ -17,7 +17,6 @@ public class NovoAlunoController implements Initializable {
     @FXML
     private void onBtnCancelar(){
         Stage stage = (Stage) btnCancelar.getScene().getWindow();
-        stage.initStyle(StageStyle.UNDECORATED);
         stage.close();
     }
 
