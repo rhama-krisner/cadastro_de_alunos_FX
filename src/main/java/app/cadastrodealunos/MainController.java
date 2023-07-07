@@ -1,15 +1,16 @@
 package app.cadastrodealunos;
 
 import javafx.fxml.FXML;
-import javafx.scene.control.Label;
+
+import java.io.IOException;
 
 public class MainController {
-    @FXML
-    private Label welcomeText;
-
 
     @FXML
-    protected void onHelloButtonClick() {
-        welcomeText.setText("Welcome to JavaFX Application!");
+    private void novoAlunoOnClick() throws IOException {
+        NovaJanela novaJanela = new NovaJanela();
+        novaJanela.novaJanela("novoAluno.fxml");
     }
+
+
 }
