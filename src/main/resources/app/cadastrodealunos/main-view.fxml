@@ -40,7 +40,7 @@
                                           <TableColumn prefWidth="133.0" text="Data de Nascimento" />
                                       </columns>
                                     </TableView>
-                                    <MFXButton buttonType="RAISED" layoutX="12.0" layoutY="6.0" prefHeight="34.0" prefWidth="103.0" style="-fx-background-color: #4CAF50;" text="Novo Aluno" textFill="WHITE" AnchorPane.leftAnchor="12.0" AnchorPane.topAnchor="12.0">
+                                    <MFXButton buttonType="RAISED" layoutX="12.0" layoutY="6.0" prefHeight="34.0" prefWidth="103.0" rippleColor="#f57a00" style="-fx-background-color: #4CAF50;" text="Novo Aluno" textFill="WHITE" AnchorPane.leftAnchor="12.0" AnchorPane.topAnchor="12.0">
                                        <font>
                                           <Font name="System Bold" size="13.0" />
                                        </font>
@@ -90,12 +90,12 @@
                       <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
                     </rowConstraints>
                      <children>
-                        <MFXButton buttonType="RAISED" depthLevel="LEVEL3" prefHeight="34.0" prefWidth="103.0" style="-fx-background-color: #6200EE;" text="Ver Mais" textFill="WHITE">
+                        <MFXButton buttonType="RAISED" depthLevel="LEVEL3" prefHeight="34.0" prefWidth="103.0" rippleColor="#f57a00" style="-fx-background-color: #4c4f4d;" text="Ver Mais" textFill="WHITE">
                            <font>
                               <Font name="System Bold" size="13.0" />
                            </font>
                         </MFXButton>
-                        <MFXButton buttonType="RAISED" depthLevel="LEVEL3" prefHeight="34.0" prefWidth="103.0" style="-fx-background-color: #e54304;" text="Excluir" textFill="WHITE" GridPane.columnIndex="1">
+                        <MFXButton buttonType="RAISED" depthLevel="LEVEL3" prefHeight="34.0" prefWidth="103.0" rippleColor="#f57a00" style="-fx-background-color: #e54304;" text="Excluir" textFill="WHITE" GridPane.columnIndex="1">
                            <font>
                                <Font name="System Bold" size="13.0" />
                            </font>
