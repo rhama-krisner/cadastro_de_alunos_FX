@@ -42,7 +42,19 @@
                                           <TableColumn prefWidth="133.0" text="Data de Nascimento" />
                                       </columns>
                                     </TableView>
+<<<<<<< HEAD
                                     <MFXButton buttonType="RAISED" layoutX="12.0" layoutY="6.0" onAction="#novoAlunoOnClick" prefHeight="34.0" prefWidth="103.0" rippleColor="#f57a00" style="-fx-background-color: #4CAF50;" text="Novo Aluno" textFill="WHITE" AnchorPane.leftAnchor="12.0" AnchorPane.topAnchor="12.0">
+=======
+
+                                     <MFXButton buttonType="RAISED" layoutX="12.0" layoutY="6.0" prefHeight="34.0" prefWidth="103.0" rippleColor="#f57a00" style="-fx-background-color: #4CAF50;" text="Novo Aluno" textFill="WHITE" AnchorPane.leftAnchor="12.0" AnchorPane.topAnchor="12.0">
+                                         <font>
+                                             <Font name="System Bold" size="13.0" />
+                                         </font>
+                                     </MFXButton>
+
+                                    <MFXButton fx:id="btnNovoAluno" buttonType="RAISED" layoutX="12.0" layoutY="6.0" onAction="#novoAlunoOnClick" prefHeight="34.0" prefWidth="103.0" rippleColor="#f57a00" style="-fx-background-color: #4CAF50;" text="Novo Aluno" textFill="WHITE" AnchorPane.leftAnchor="12.0" AnchorPane.topAnchor="12.0">
+
+>>>>>>> 80e1b4ece194813cfc76292a621dd064837c3f1a
                                        <font>
                                           <Font name="System Bold" size="13.0" />
                                        </font>
