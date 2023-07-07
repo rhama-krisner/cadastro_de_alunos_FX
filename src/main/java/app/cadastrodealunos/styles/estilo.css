@@ -1,0 +1,8 @@
+.root {
+    -fx-background-color: #FF0000; /* cor de fundo da barra de título */
+}
+
+.root .title-bar {
+    -fx-background-color: #fc7600; /* cor de fundo da barra de título */
+    -fx-text-fill: #FFFFFF; /* cor do texto na barra de título */
+}
