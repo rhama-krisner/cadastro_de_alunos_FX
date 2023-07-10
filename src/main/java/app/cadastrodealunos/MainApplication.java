@@ -9,7 +9,8 @@ import javafx.stage.StageStyle;
 
 import java.io.IOException;
 
-public class MainApplication extends Application {
+public class
+MainApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         stage.initStyle(StageStyle.UNIFIED);
